@@ -20,11 +20,11 @@
     <!-- Navbar (sit on top) -->
     <nav>
         <div class="navbar shadow-lg fixed-top container-fluid w3-white" id="myNavbar">
-            <a href="#home" class="w3-bar-item w3-button w3-wide">JP DEV</a>
+            <a href="#home" class="w3-bar-item w3-button w3-wide"><b>D-ART</b></a>
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small">
                 <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i> ABOUT</a>
-                <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-picture-o"></i> GALLERY</a>
+                <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-shopping-cart"></i>  PRODUCTS</a>
                 <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> TRANSACTION</a>
                 <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
             </div>
@@ -37,17 +37,16 @@
                     <div class="bar3"></div>
                 </div>
             </a>
-
         </div>
     </nav>
 
     <!-- Sidebar on small screens when clicking the menu icon -->
     <nav class="w3-sidebar w3-bar-block  w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none;margin-top:61px;" id="mySidebar">
-        <div class="py-2 mb-1" style="border-bottom:1px solid white;">
+        <div class="py-2" style="border-bottom:1px solid rgb(0, 0, 0);">
             <span class="ml-3" style="font-size:18px">MAIN MENU</span>
-            <a href="javascript:void(0)" onclick="w3_close()" style="float:right;margin-top:-8px" class="btn w3-hover-red mb-1"><i class="fa fa-close"></i></a>
         </div>
-        <div style=" width: 100%;height: 90%;overflow: auto;">
+        <a onclick="w3_close()" style="float:right;margin-top: -40px" class="btn-sm w3-hover-red mb-1"><i class="fa fa-close"></i></a>
+        <div style=" width: 100%;overflow:auto;">
             <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
             <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
             <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
@@ -67,9 +66,11 @@
 
     <!-- Header with full-height image -->
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-        <div class="mt-1 w3-display-left w3-text-white" style="padding:55px">
-            <span class="w3-jumbo w3-hide-small">JP DEV.</span>
-            <span class="w3-xxlarge w3-hide-large w3-hide-medium">JP DEV.</span>
+        <div class="mt-3 w3-display-left w3-text-white" style="padding:55px">
+            <span style="font-size:90px" class="w3-hide-small"><b>𝕯-卂尺ㄒ
+                </b></span>
+            <span class="w3-jumbo w3-hide-large w3-hide-medium"><b>𝕯-卂尺ㄒ
+                </b></span></span>
             <br>
             <span class="w3-large">
                 <a href="" class="typewrite text-white" data-period="3000" 
@@ -142,63 +143,89 @@
         </div>
     </div>
 
-    <!-- Team Section -->
-    <div class="w3-container" style="padding:80px 16px;padding-bottom: 100px;" id="team">
+    <!-- Product Section -->
+    <div class="w3-container" style="padding:80px 16px;padding-bottom: 10px;" id="team">
         <h3 class="w3-center">AVAILABLE PRODUCT</h3>
         <p class="w3-center w3-large">Products that you can already purchase</p>
-        <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-            <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-row-padding" style="margin-top:55px">
+            <div class="w3-col l4 m6 w3-margin-bottom">
                 <div class="overlay-container">
-                    <img src="src/img/image.jpg" alt="Avatar" class="image">
-                    <div class="overlay-right">
-                        <div class="text">Hello World</div>
+                    <img src="src/img/webdesign.png" alt="Avatar" class="image rounded">
+                    <div class="overlay-left rounded">
+                        <div class="text-title">WEB DESIGNS</div>
+                        <p class="text-paragraph">We create responsive website design powered with HTML5,CSS3,JAVASCRIPT,BOOTSTRAP</p>
                     </div>
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-col l4 m6 w3-margin-bottom">
                 <div class="overlay-container">
-                    <img src="src/img/image.jpg" alt="Avatar" class="image">
-                    <div class="overlay-left">
-                        <div class="text">Hello World</div>
+                    <img src="src/img/image.jpg" alt="Avatar" class="image rounded">
+                    <div class="overlay-left rounded">
+                        <div class="text-title">PHOTO EDITING</div>
+                        <p class="text-paragraph">We create responsive website design powered with HTML5,CSS3,JAVASCRIPT,BOOTSTRAP</p>
                     </div>
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-col l4 m15 w3-margin-bottom">
                 <div class="overlay-container">
-                    <img src="src/img/image.jpg" alt="Avatar" class="image">
-                    <div class="overlay-right">
-                        <div class="text">Hello World</div>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="overlay-container">
-                    <img src="src/img/image.jpg" alt="Avatar" class="image">
-                    <div class="overlay-left">
-                        <div class="text">Hello World</div>
+                    <img src="src/img/image.jpg" alt="Avatar" class="image rounded">
+                    <div class="overlay-left rounded">
+                        <div class="text-title">3D MODELING</div>
+                        <p class="text-paragraph">We create responsive website design powered with HTML5,CSS3,JAVASCRIPT,BOOTSTRAP</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="w3-row-padding" style="margin-top:20px">
+            <div class="w3-col l4 m6 w3-margin-bottom">
+                <div class="overlay-container">
+                    <img src="src/img/image.jpg" alt="Avatar" class="image rounded">
+                    <div class="overlay-right rounded">
+                        <div class="text-title">PRINTABLE DESIGNS</div>
+                        <p class="text-paragraph">We create responsive website design powered with HTML5,CSS3,JAVASCRIPT,BOOTSTRAP</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom">
+                <div class="overlay-container">
+                    <img src="src/img/image.jpg" alt="Avatar" class="image rounded">
+                    <div class="overlay-right rounded">
+                        <div class="text-title">VIDEO</div>
+                        <p class="text-paragraph">We create responsive website design powered with HTML5,CSS3,JAVASCRIPT,BOOTSTRAP</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l4 m15 w3-margin-bottom">
+                <div class="overlay-container">
+                    <img src="src/img/image.jpg" alt="Avatar" class="image rounded">
+                    <div class="overlay-right rounded">
+                        <div class="text-title">WEB DESIGNS</div>
+                        <p class="text-paragraph">We create responsive website design powered with HTML5,CSS3,JAVASCRIPT,BOOTSTRAP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary btn-block p-3">VIEW MORE</button>
     </div>
+
 
     <!-- Promo Section "Statistics" -->
     <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
         <div class="w3-quarter">
             <span class="w3-xxlarge">14+</span>
-            <br>Partners
+            <br>ONGOING PROJECTS
         </div>
         <div class="w3-quarter">
             <span class="w3-xxlarge">55+</span>
-            <br>Projects Done
+            <br>PROJECTS DONE
         </div>
         <div class="w3-quarter">
-            <span class="w3-xxlarge">89+</span>
-            <br>Happy Clients
+            <span class="w3-xxlarge">95%</span>
+            <br>SATISFIED CLIENTS
         </div>
         <div class="w3-quarter">
-            <span class="w3-xxlarge">150+</span>
-            <br>Meetings
+            <span class="w3-xxlarge">10+</span>
+            <br>PARTNERS
         </div>
     </div>
 
@@ -273,59 +300,198 @@
     </div>
 
     <!-- Pricing Section -->
-    <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+    <div class="w3-container w3-center w3-dark-grey" style="padding:90px 16px" id="pricing">
         <h3>PRICING</h3>
         <p class="w3-large">Choose a pricing plan that fits your needs.</p>
-        <div class="w3-row-padding" style="margin-top:64px">
-            <div class="inlarge w3-third w3-section">
-                <ul class="w3-ul w3-white w3-hover-shadow">
-                    <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-                    <li class="w3-padding-16"><b>10GB</b> Storage</li>
-                    <li class="w3-padding-16"><b>10</b> Emails</li>
-                    <li class="w3-padding-16"><b>10</b> Domains</li>
-                    <li class="w3-padding-16"><b>Endless</b> Support</li>
-                    <li class="w3-padding-16">
-                        <h2 class="w3-wide">$ 10</h2>
-                        <span class="w3-opacity">per month</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
-            <div class="inlarge w3-third">
-                <ul class="w3-ul w3-white w3-hover-shadow">
-                    <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
-                    <li class="w3-padding-16"><b>25GB</b> Storage</li>
-                    <li class="w3-padding-16"><b>25</b> Emails</li>
-                    <li class="w3-padding-16"><b>25</b> Domains</li>
-                    <li class="w3-padding-16"><b>Endless</b> Support</li>
-                    <li class="w3-padding-16">
-                        <h2 class="w3-wide">$ 25</h2>
-                        <span class="w3-opacity">per month</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
-            <div class="inlarge w3-third w3-section">
-                <ul class="w3-ul w3-white w3-hover-shadow">
-                    <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
-                    <li class="w3-padding-16"><b>50GB</b> Storage</li>
-                    <li class="w3-padding-16"><b>50</b> Emails</li>
-                    <li class="w3-padding-16"><b>50</b> Domains</li>
-                    <li class="w3-padding-16"><b>Endless</b> Support</li>
-                    <li class="w3-padding-16">
-                        <h2 class="w3-wide">$ 50</h2>
-                        <span class="w3-opacity">per month</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-                    </li>
-                </ul>
+        <div class="container-fluid text-center my-3">
+            <div class="row mx-auto my-auto">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div style="position: relative;top: 630px">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        </ol>
+                    </div>
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <div class="plan basic">
+                                        <div class="plan-inner">
+                                            <div class="entry-title">
+                                                <h3>Express Wash</h3>
+                                                <div class="price">$50<span>/PER CAR</span>
+                                                </div>
+                                            </div>
+                                            <div class="entry-content">
+                                                <ul>
+                                                    <li><strong>1x</strong> option 1</li>
+                                                    <li><strong>2x</strong> option 2</li>
+                                                    <li><strong>3x</strong> option 3</li>
+                                                    <li><strong>Free</strong> option 4</li>
+                                                    <li><strong>Unlimited</strong> option 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="btn">
+                                                <a href="#">Order Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <div class="plan basic">
+                                        <div class="plan-inner">
+                                            <div class="entry-title">
+                                                <h3>Express Wash</h3>
+                                                <div class="price">$50<span>/PER CAR</span>
+                                                </div>
+                                            </div>
+                                            <div class="entry-content">
+                                                <ul>
+                                                    <li><strong>1x</strong> option 1</li>
+                                                    <li><strong>2x</strong> option 2</li>
+                                                    <li><strong>3x</strong> option 3</li>
+                                                    <li><strong>Free</strong> option 4</li>
+                                                    <li><strong>Unlimited</strong> option 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="btn">
+                                                <a href="#">Order Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <div class="plan basic">
+                                        <div class="plan-inner">
+                                            <div class="entry-title">
+                                                <h3>Express Wash</h3>
+                                                <div class="price">$50<span>/PER CAR</span>
+                                                </div>
+                                            </div>
+                                            <div class="entry-content">
+                                                <ul>
+                                                    <li><strong>1x</strong> option 1</li>
+                                                    <li><strong>2x</strong> option 2</li>
+                                                    <li><strong>3x</strong> option 3</li>
+                                                    <li><strong>Free</strong> option 4</li>
+                                                    <li><strong>Unlimited</strong> option 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="btn">
+                                                <a href="#">Order Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <div class="plan basic">
+                                        <div class="plan-inner">
+                                            <div class="entry-title">
+                                                <h3>Express Wash</h3>
+                                                <div class="price">$50<span>/PER CAR</span>
+                                                </div>
+                                            </div>
+                                            <div class="entry-content">
+                                                <ul>
+                                                    <li><strong>1x</strong> option 1</li>
+                                                    <li><strong>2x</strong> option 2</li>
+                                                    <li><strong>3x</strong> option 3</li>
+                                                    <li><strong>Free</strong> option 4</li>
+                                                    <li><strong>Unlimited</strong> option 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="btn">
+                                                <a href="#">Order Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <div class="plan basic">
+                                        <div class="plan-inner">
+                                            <div class="entry-title">
+                                                <h3>Express Wash</h3>
+                                                <div class="price">$50<span>/PER CAR</span>
+                                                </div>
+                                            </div>
+                                            <div class="entry-content">
+                                                <ul>
+                                                    <li><strong>1x</strong> option 1</li>
+                                                    <li><strong>2x</strong> option 2</li>
+                                                    <li><strong>3x</strong> option 3</li>
+                                                    <li><strong>Free</strong> option 4</li>
+                                                    <li><strong>Unlimited</strong> option 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="btn">
+                                                <a href="#">Order Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body">
+                                    <div class="plan basic">
+                                        <div class="plan-inner">
+                                            <div class="entry-title">
+                                                <h3>Express Wash</h3>
+                                                <div class="price">$50<span>/PER CAR</span>
+                                                </div>
+                                            </div>
+                                            <div class="entry-content">
+                                                <ul>
+                                                    <li><strong>1x</strong> option 1</li>
+                                                    <li><strong>2x</strong> option 2</li>
+                                                    <li><strong>3x</strong> option 3</li>
+                                                    <li><strong>Free</strong> option 4</li>
+                                                    <li><strong>Unlimited</strong> option 5</li>
+                                                </ul>
+                                            </div>
+                                            <div class="btn">
+                                                <a href="#">Order Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
         </div>
+
     </div>
 
     <!-- Contact Section -->
@@ -351,6 +517,22 @@
         </div>
     </div>
 
+    <div class="container-fluid" style="margin-bottom:150px">
+        <div class="next">Next</div>
+        <div class="prev">Prev</div>
+        <div class="container-car">
+            <div class="carousel carousel3d">
+                <div class="item3d a">A</div>
+                <div class="item3d b">B</div>
+                <div class="item3d c">C</div>
+                <div class="item3d d">D</div>
+                <div class="item3d e">E</div>
+                <div class="item3d f">F</div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Footer -->
     <footer class="w3-center w3-black">
         <div class="row">
@@ -363,6 +545,7 @@
             <div class="col-md">
                 <!--Column1-->
                 <div class="footer-pad">
+                    <h4>Site Map</h4>
                     <ul class="list-unstyled">
                         <li><a href="#">Website Tutorial</a></li>
                         <li><a href="#">Accessibility</a></li>
@@ -423,6 +606,81 @@
         function toggle_menu(x) {
             x.classList.toggle("change");
         }
+
+
+        // THIS IS FOR THE 3d carousel
+        // animation sample
+        var carousel = $(".carousel3d"),
+            currdeg = 0;
+
+        $(".next").on("click", {
+            d: "n"
+        }, rotate);
+        $(".prev").on("click", {
+            d: "p"
+        }, rotate);
+
+        function rotate(e) {
+            if (e.data.d == "n") {
+                currdeg = currdeg - 60;
+            }
+            if (e.data.d == "p") {
+                currdeg = currdeg + 60;
+            }
+            carousel.css({
+                "-webkit-transform": "rotateY(" + currdeg + "deg)",
+                "-moz-transform": "rotateY(" + currdeg + "deg)",
+                "-o-transform": "rotateY(" + currdeg + "deg)",
+                "transform": "rotateY(" + currdeg + "deg)"
+            });
+        }
+
+
+        $('#carouselExample').on('slide.bs.carousel', function(e) {
+
+
+            var $e = $(e.relatedTarget);
+            var idx = $e.index();
+            var itemsPerSlide = 3;
+            var totalItems = $('.arousel-item3d').length;
+
+            if (idx >= totalItems - (itemsPerSlide - 1)) {
+                var it = itemsPerSlide - (totalItems - idx);
+                for (var i = 0; i < it; i++) {
+                    // append slides to end
+                    if (e.direction == "left") {
+                        $('.carousel3d-item3d').eq(i).appendTo('.carousel-inner');
+                    } else {
+                        $('.carousel3d-item3d').eq(0).appendTo('.carousel-inner');
+                    }
+                }
+            }
+        });
+
+
+
+        // This is for card carousel
+        $('#recipeCarousel').carousel({
+            interval: 10000
+        })
+
+        $('.carousel .carousel-item').each(function() {
+            var minPerSlide = 3;
+            var next = $(this).next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+
+            for (var i = 0; i < minPerSlide; i++) {
+                next = next.next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+
+                next.children(':first-child').clone().appendTo($(this));
+            }
+        });
     </script>
 
 </body>
